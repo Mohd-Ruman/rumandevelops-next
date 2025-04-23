@@ -12,6 +12,9 @@
   --text-highlight : #FFFFFF;
   --text-accent : #8E4CFF;
 
+  --gradient-left:#8E4CFF;
+  --gradient-right:#25004C;
+
   --font-outfit: 'Outfit', sans-serif;
   --font-orbitron: 'Orbitron', sans-serif;
 }
@@ -19,10 +22,17 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --color-accent-primary: var(--accent-primary);
   --color-accent-secondary: var(--accent-secondary);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-description: var(--text-description);
+  --color-text-highlight: var(--text-highlight);
+  --color-text-accent: var(--text-accent);
+
+  --color-gradient-left: var(--gradient-left);
+  --color-gradient-right: var(--gradient-right);
 
   --font-outfit: var(--font-outfit);
   --font-orbitron: var(--font-orbitron);
@@ -36,6 +46,22 @@
   .font-orbitron {
     font-family: var(--font-orbitron);
   }
+
+  .text-gradient {
+    background-image: linear-gradient(to right, var(--gradient-left), var(--gradient-right));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+
+  .border-gradient-horizontal {
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, #000000, #bfbfbf , #000000);
+    border-image-slice: 1;
+  }
+
+
 }
 
 /* @theme inline {
@@ -57,4 +83,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 } 

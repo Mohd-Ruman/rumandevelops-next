@@ -8,7 +8,10 @@ const LandingPage = () => {
     <>
       {/* <h1>Lvl 2 : LandingPage index</h1> */}
       <Navbar className="z-0"/>
-      <Hero/>
+      <div className='px-[24px]'>
+        <Hero/>
+
+      </div>
     </>
   )
 }
