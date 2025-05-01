@@ -13,10 +13,10 @@ const Hero = () => {
             <Image src="/lab-82-icon-white.svg" width={100} height={100} alt="Lab 82 icon"/>
             <div className='flex flex-col gap-2'>
 
-              <h1 className='uppercase font-orbitron text-[32px] sm:text-[64px] -mt-4'>Mohd <span className='text-gradient'>Ruman</span></h1>
+              <h1 className='uppercase font-orbitron font-bold text-[32px] sm:text-[64px] -mt-4'>Mohd <span className='text-gradient'>Ruman</span></h1>
 
               <div className='flex flex-row -mt-4 items-center text-[18px] sm:text-[24px] gap-2'>
-                <p className='text-text-description uppercase font-orbitron font-medium'>Frontend developer</p>
+                <p className='text-text-description uppercase font-orbitron font-semibold'>Frontend developer</p>
                 <p className='hidden font-orbitron sm:block'>/////////////</p>
               </div>
 

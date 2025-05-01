@@ -6,7 +6,7 @@
   --outline: #bfbfbf30;
 
   --accent-primary : #8E4CFF;
-  --accent-secondary : #FF7376;
+  --accent-secondary : #73ccff;
 
   --text-primary : #FFFFFF;
   --text-description : #868686;
@@ -63,6 +63,11 @@
     border-image-slice: 1;
   }
 
+  .card-bg {
+    background: rgb(32,15,73);
+    background: radial-gradient(circle at bottom, rgb(47, 22, 105) 0%, rgba(19,21,25,1) 70%);
+  }
+
 
 }
 
@@ -117,8 +122,17 @@ body {
 }
 
 
-.card-bg {
-  background: rgb(32,15,73);
-  background: radial-gradient(circle at bottom, rgba(32,15,73,1) 0%, rgba(19,21,25,1) 70%);
+
+@keyframes heart {
+  0%{
+    transform: scale(100%);
+  }
+  100%{
+    transform: scale(120%);
+  }
 }
 
+.animate-heart {
+  animation: heart 1s linear infinite;
+  z-index: -50;
+}

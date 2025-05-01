@@ -21,8 +21,8 @@ const Navbar = () => {
                     </div>
                 </div>
 
-            <div className='w-full sm:w-1/2 z-0 h-full rounded-full blur-[100px] bg-accent-primary absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></div>
-            <div className='sm:w-1/5 w-1/2 z-0 h-1/2 rounded-full blur-[50px] bg-accent-secondary absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></div>
+            <div className='w-full sm:w-1/2 z-0 h-full rounded-full blur-[70px] sm:blur-[100px] bg-accent-primary absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></div>
+            <div className='sm:w-1/5 w-1/2 z-0 h-1/2 rounded-full blur-[35px]  sm:blur-[50px] bg-accent-secondary absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></div>
 
             <div className='font-orbitron font-semibold'>RV1</div>
 

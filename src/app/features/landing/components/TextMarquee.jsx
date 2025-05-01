@@ -11,7 +11,7 @@ const words = [
 export default function TextMarquee() {
   return (
     <>
-      <div className="mt-20 flex text-[14px] sm:text-[32px] whitespace-nowrap overflow-hidden space-x-16 sm:space-x-32">
+      <div className="mt-20 flex text-[18px] sm:text-[32px] whitespace-nowrap overflow-hidden space-x-16 sm:space-x-32">
 
         <div className="animate-marquee flex space-x-16 sm:space-x-32 items-center font-outfit text-text-description">
           {words.map((word, idx) => (
