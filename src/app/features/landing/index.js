@@ -2,6 +2,11 @@ import React from 'react';
 
 import Hero from './components/Hero.jsx';
 import Navbar from './components/Navbar.jsx';
+import About from './components/About.jsx';
+import Love from './components/Love.jsx';
+import TextMarquee from './components/TextMarquee.jsx';
+import Skills from './components/skills/Skills.jsx';
+import TextMarqueeRight from './components/TextMarqueeRight.jsx';
 
 const LandingPage = () => {
   return (
@@ -10,7 +15,12 @@ const LandingPage = () => {
       <Navbar className="z-0"/>
       <div className='px-[24px]'>
         <Hero/>
-
+        <About/>
+        <Love/>
+        <TextMarquee className=""/>
+        <TextMarqueeRight/>
+        <Skills/>
+        
       </div>
     </>
   )

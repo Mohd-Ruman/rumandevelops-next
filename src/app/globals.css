@@ -3,6 +3,7 @@
 :root {
   --background: #000000;
   --foreground: #ffffff;
+  --outline: #bfbfbf30;
 
   --accent-primary : #8E4CFF;
   --accent-secondary : #FF7376;
@@ -22,6 +23,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-outline: var(--outline);
 
   --color-accent-primary: var(--accent-primary);
   --color-accent-secondary: var(--accent-secondary);
@@ -85,3 +87,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 } 
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+  z-index: -50;
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-right {
+  animation: marquee-right 20s linear infinite;
+  z-index: -50;
+}
+
+
+.card-bg {
+  background: rgb(32,15,73);
+  background: radial-gradient(circle at bottom, rgba(32,15,73,1) 0%, rgba(19,21,25,1) 70%);
+}
+
