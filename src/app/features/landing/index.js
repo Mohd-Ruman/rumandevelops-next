@@ -20,6 +20,7 @@ const LandingPage = () => {
         <TextMarquee className=""/>
         <TextMarqueeRight/>
         <Skills/>
+        <h1>This is bottom</h1>
         
       </div>
     </>

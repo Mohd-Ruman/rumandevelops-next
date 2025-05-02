@@ -45,7 +45,15 @@ const SkillsObject = [
     {
         title : "HTML",
         icon : '/skills/html.png',
-        description : "This is the description of HTML"
+        description : `• Semantic HTML Expertise: Proficient in writing clean, well-structured semantic HTML that improves accessibility and SEO.
+
+        • Responsive Markup: Skilled in creating responsive layouts using HTML5 elements, ensuring compatibility across devices and screen sizes.
+
+        • Form Creation & Validation: Experienced in building and customizing forms with proper input types, labels, and basic validation techniques.
+
+        • Integration-Ready: Able to structure HTML content that integrates seamlessly with CSS, JavaScript, and backend technologies.
+        
+        • Best Practices Adherence: Follows modern HTML standards and best practices for maintainable and scalable code.`
     },
     {
         title : "CSS",
