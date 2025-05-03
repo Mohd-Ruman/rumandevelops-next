@@ -9,20 +9,26 @@ import SkillsDetail from './SkillsDetail.jsx'
 
 const Skills = () => {
 
-  const [ skillName, setSkillName] = useState([]);
+  const [ skillName, setSkillName] = useState(["Choose a technology", "Click on one of the cards to reveal the topics regarding to the technology"]);
 
   return (
     <>
-      <div className='mt-20'>
+      <div className='mt-40'>
         
-        <h1 className='text-[32px] text-left font-orbitron font-bold'>
+        {/* <h1 className='text-[32px] text-left font-orbitron font-bold'>
           SKILLS POSSESSED
         </h1>
         <p className='text-[16px] font-outfit text-text-description'>
           Technologies and there brief of important concepts i know. 
-        </p>
+        </p> */}
+          <h1 className='text-[32px] text-sm/tight sm:text-[64px] text-left font-orbitron font-extrabold'>
+            SKILLS POSSESSED
+          </h1>
+          <p className='text-[16px] font-outfit text-text-description'>
+            Technologies and there brief of important concepts i know.  
+          </p>
 
-        <div className='mt-8 flex flex-row'>
+        <div className='mt-20 flex flex-row'>
         {/* Cards Container */}
         <div className='sm:w-[60%] flex flex-wrap sm:flex-row gap-8'>
           {/* Cards Mapped */}
@@ -36,12 +42,13 @@ const Skills = () => {
                 flex flex-col items-center justify-center hover:animate-pulse
                 '>
                   <Image  
-                    className={`w-[100px] h-[100px] object-contain`}
+                    className={`w-[100px] h-[100px] z-20 object-contain`}
                     src={skill.icon} 
                     alt={skill.description} 
                     width={100} 
                     height={100}
                     />
+                  
 
                   <p className='text-[14px] font-outfit font-semibold text-text-description'>{skill.title}</p>
                 </div>

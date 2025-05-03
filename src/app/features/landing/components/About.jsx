@@ -3,16 +3,19 @@ import React from "react";
 const About = () => {
   return (
     <>
-        <div className="sm:px-20">
-          <h1 className='text-[32px] text-left font-orbitron font-bold'>
-          ABOUT ME
-        </h1>
-        <p className='text-[16px] font-outfit text-text-description'>
-          A very brief overview of me, but you can always know more. 
-        </p>
+        <div className="mt-20 sm:mt-40 ">
+        
+          <h1 className='text-[32px] text-sm/tight sm:text-[64px] text-left font-orbitron font-extrabold'>
+            ABOUT ME
+          </h1>
+          <p className='text-[16px] font-outfit text-text-description'>
+            A very brief overview of me, but you can always know more. 
+          </p>
+          
+          
         </div>
 
-      <div className="mt-10 flex flex-col justify-between sm:px-20 sm:flex sm:flex-row gap-6">
+      <div className="sm:mt-20 flex flex-col justify-between sm:flex sm:flex-row gap-6">
         
         <p className="font-outfit mt-10 sm:mt-0 text-text-description sm:w-1/2">
           Hey, I’m <span className="text-text-primary font-bold">Mohd Ruman</span><br/> 
@@ -33,7 +36,7 @@ const About = () => {
           building components, designing systems, or just writing beautiful
           code, <span className="text-text-primary font-bold">I’m here for it.</span>
         </p>
-        <h1 className="font-outfit mt-10 sm:mt-0 font-semibold text-[32px] sm:w-fit sm:text-right ">Let's create something <span className="text-gradient"><br/>legendary !</span></h1>
+        {/* <h1 className="font-outfit mt-10 sm:mt-0 font-semibold text-[32px] sm:w-fit sm:text-right ">Let's create something <span className="text-gradient"><br/>legendary !</span></h1> */}
       </div>
     </>
   );

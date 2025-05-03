@@ -23,7 +23,7 @@ const SkillsDetail = ( {skillName, skillDescription}) => {
         <div className='w-full h-10 mt-4 border-t-1 border-outline'>
         </div>
 
-        <p className='font-outfit font-medium text-text-description' style={{ whiteSpace: 'pre-line' }}>
+        <p className='font-outfit font-medium text-gray-400' style={{ whiteSpace: 'pre-line' }}>
           {skillDescription}
         </p>
 

@@ -77,7 +77,7 @@ const SkillsObject = [
     },
     {
         title : "Learning More +",
-        icon : '/skills/learning-more.svg',
+        icon : null,
         description : "This is the description of Learning more",
         opacity: 0,
     },

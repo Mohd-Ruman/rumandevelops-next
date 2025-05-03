@@ -13,7 +13,7 @@ const LandingPage = () => {
     <>
       {/* <h1>Lvl 2 : LandingPage index</h1> */}
       <Navbar className="z-0"/>
-      <div className='px-[24px]'>
+      <div className='px-[24px] sm:px-[44px]'>
         <Hero/>
         <About/>
         <Love/>

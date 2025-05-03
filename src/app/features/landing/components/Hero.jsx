@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
 
         {/* 3 Words */}
-        <div className='w-full gap-4 font-orbitron text-[24px] sm:px-20 text-text-description flex flex-col sm:flex-row text-center items-center justify-between mt-10'>
+        <div className='w-full gap-4 font-orbitron text-[16px] sm:text-[24px] px-[24px] sm:px-20 text-text-description flex flex-row sm:flex-row text-center items-center justify-between mt-10'>
           <p>DESIGN</p>
           <p>DEVELOP</p>
           <p>EVOLVE</p>
