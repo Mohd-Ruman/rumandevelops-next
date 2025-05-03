@@ -42,8 +42,8 @@ const Skills = () => {
                 flex flex-col items-center justify-center hover:animate-pulse
                 '>
                   <Image  
-                    className={`w-[100px] h-[100px] z-20 object-contain`}
-                    src={skill.icon} 
+                    className={`w-[100px] h-[100px] object-contain`}
+                    src={skill.icon || null} 
                     alt={skill.description} 
                     width={100} 
                     height={100}

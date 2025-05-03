@@ -7,6 +7,7 @@ import Love from './components/Love.jsx';
 import TextMarquee from './components/TextMarquee.jsx';
 import Skills from './components/skills/Skills.jsx';
 import TextMarqueeRight from './components/TextMarqueeRight.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 const LandingPage = () => {
   return (
@@ -20,7 +21,8 @@ const LandingPage = () => {
         <TextMarquee className=""/>
         <TextMarqueeRight/>
         <Skills/>
-        <h1>This is bottom</h1>
+        <Contact/>
+        <h1 className='h-[400px] mt-40'>This is bottom</h1>
         
       </div>
     </>
