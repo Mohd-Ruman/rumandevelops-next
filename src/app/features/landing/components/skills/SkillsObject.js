@@ -77,7 +77,7 @@ const SkillsObject = [
     },
     {
         title : "Learning More +",
-        icon : null,
+        icon : '/skills/framer-motion.png',
         description : "This is the description of Learning more",
         opacity: 0,
     },
