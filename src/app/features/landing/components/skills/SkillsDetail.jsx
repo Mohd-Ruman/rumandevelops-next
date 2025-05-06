@@ -8,7 +8,7 @@ const SkillsDetail = ( {skillName, skillDescription}) => {
 
   return (
     <>
-       <div className='card-bg hidden md:flex md:flex-col rounded-[12px] w-[50%] p-8 '>
+       <div className='sm:sticky sm:top-24 sm:h-[500px] -z-50 card-bg hidden md:flex md:flex-col rounded-[12px] w-[50%] p-8 '>
 
         <div className='flex flex-row justify-between'>
           <div className='flex flex-row gap-2'>

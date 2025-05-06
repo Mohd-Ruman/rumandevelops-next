@@ -8,6 +8,7 @@ import TextMarquee from './components/TextMarquee.jsx';
 import Skills from './components/skills/Skills.jsx';
 import TextMarqueeRight from './components/TextMarqueeRight.jsx';
 import Contact from './components/contact/Contact.jsx';
+import Footer from './components/Footer.jsx';
 
 const LandingPage = () => {
   return (
@@ -21,10 +22,11 @@ const LandingPage = () => {
         <TextMarquee className=""/>
         <TextMarqueeRight/>
         <Skills/>
-        <Contact/>
-        <h1 className='h-[400px] mt-40'>This is bottom</h1>
+        <Contact/> 
         
       </div>
+      <Footer/>
+      <h1 className='h-[400px] mt-40'>This is bottom</h1>
     </>
   )
 }
